@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "first_name": "Florian",
+      "last_name": "Guerin",
+      "email": "florian@nomad.com",
+      "password": "123456",
+      "password_confirmation": "123456",
+      "admin": true
+    },
+    {
+      "first_name": "Jacqueline",
+      "last_name": "Bernigaud",
+      "email": "jacqueline@nomad.com",
+      "password": "123456",
+      "password_confirmation": "123456",
+      "admin": false
+    }
+  ]
+}
