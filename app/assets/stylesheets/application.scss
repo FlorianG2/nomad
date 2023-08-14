@@ -3,7 +3,12 @@
 @import "config/bootstrap_variables";
 
 @import "pages/index";
+@import "components/index";
 
 body {
   background-color: $body-bg;
+}
+
+.limelight {
+  font-family: $app-name;
 }

@@ -4,5 +4,8 @@
 
 import { application } from "./application"
 
+import ProgressBarController from "./progress_bar_controller"
+application.register("progress-bar", ProgressBarController)
+
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
