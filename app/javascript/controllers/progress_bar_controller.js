@@ -13,5 +13,6 @@ export default class extends Controller {
     window.onscroll = function () {
       progressBarScroll();
     };
+
   }
 }

@@ -1,4 +1,4 @@
-#orange-btn {
+.orange-btn {
   background-color: $main;
   padding: 10px 20px 10px 20px;
   font-size: 20px;
@@ -10,4 +10,5 @@
   text-decoration: none;
   color: white;
   font-family: $generic-font-condensed;
+  cursor: pointer;
 }
