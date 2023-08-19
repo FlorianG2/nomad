@@ -7,6 +7,14 @@
 
 body {
   background-color: $body-bg;
+
+  a {
+    text-decoration: none;
+  }
+
+  h2 {
+    margin: 0;
+  }
 }
 
 .limelight {
