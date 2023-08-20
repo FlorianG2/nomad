@@ -91,9 +91,5 @@ input[type=password]:focus{
 }
 
 input[type=checkbox] {
-  border-radius: 50% !important;
-  border: 1px solid white !important;
-  width: 1em;
-  height: 1em;
-  cursor: pointer;
+  accent-color: $main;
 }
