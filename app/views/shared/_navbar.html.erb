@@ -2,12 +2,16 @@
   <div class="navbar">
     <p id="app_name">NOMAD</p>
     <div class="d-flex">
-      <div class="mx-2">
-        <%= link_to "Sign Up", new_user_registration_path, class:"light-btn" %>
-      </div>
-      <div class="mx-2">
-        <%= link_to "Log In", new_user_session_path, class:"green-btn" %>
-      </div>
+      <% if user_signed_in? %>
+        <%= link_to "Log out", destroy_user_session_path, class: "orange-btn", data: {turbo_method: :delete} %>
+      <% else %>
+        <div class="mx-2">
+          <%= link_to "Sign Up", new_user_registration_path, class:"light-btn" %>
+        </div>
+        <div class="mx-2">
+          <%= link_to "Log In", new_user_session_path, class:"green-btn" %>
+        </div>
+      <% end %>
     </div>
   </div>
   <!-- -->
