@@ -7,6 +7,11 @@
 <%= currency.name %>
 (<%= currency.symbol %>)
 -->
+<% if user_signed_in? %>
+  <div class="container">
+    <%= render "shared/navbar" %>
+  </div>
+<% else %>
 <div class="container" data-controller="progress-bar">
 
   <%= render "shared/navbar" %>
@@ -24,3 +29,4 @@
     </div>
   <!-- -->
 </div>
+<% end %>
