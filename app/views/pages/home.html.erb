@@ -9,12 +9,11 @@
 -->
 <% if user_signed_in? %>
   <div class="container">
-    <%= render "shared/navbar" %>
+
   </div>
 <% else %>
 <div class="container" data-controller="progress-bar">
 
-  <%= render "shared/navbar" %>
   <%= render "shared/landing-page-1" %>
   <%= render "shared/landing-page-2" %>
   <%= render "shared/landing-page-2" %>
